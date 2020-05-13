@@ -1,4 +1,4 @@
-# The code is borrowed from Engineer Man
+# Parts of the code are borrowed from Engineer Man
 import requests
 import os
 import random
@@ -22,7 +22,7 @@ for name in names:
 	surname = ''.join(random.choice(surnames))
 	name_extra = ''.join(random.choice(string.digits))
 	mail_provider = ''.join(random.choice(mail_providers))
-	
+
 	
 # Generate random e-mail for login
 
